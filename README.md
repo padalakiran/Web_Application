@@ -6,6 +6,8 @@ Prerequisite for the Project
 2. PyCharm:- Pycharm is the platform that Used to run the Python Files That Can Be Downloaded using [Link](https://www.jetbrains.com/pycharm/download/)
 3. Django Module:- To work with Django you need to install Django module which is installed by using command $\color{blue}{pip\ install\ django}$ which can be enter in command prompt 
 4. Data Base:-
+5. HTML,CSS:- You need to Create the form with HTML(Hyper Text Markup Language), CSS(Cascading Style Sheet) that can take the input from the user.
+6. Virtual Environment:- You need to create virtual environment that can can setup all the required environment like python etc..,
 
 ## Steps to Run the project
 1. Open PyCharm: Launch PyCharm from your applications or start menu.
