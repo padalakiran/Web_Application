@@ -15,3 +15,13 @@ Prerequisite for the Project
 5. Open Terminal: Once the project is loaded, you can open the terminal within PyCharm by clicking on **"View" -> "Tool Windows" -> "Terminal"**.
 6. Run Server: In the terminal, navigate to the directory where your manage.py file is located and run the Django development server using the command python manage.py runserver.
 7. Access Django Admin: Open a web browser and navigate to the address provided by the Django development server (typically http://127.0.0.1:8000/). You should see your Django project running. If you have set up Django admin, you can access it at http://127.0.0.1:8000/admin/.
+
+After Running Project you will get the output with the link to access the Project which looks like</br></br>
+![image](https://github.com/padalakiran/Web_Application/assets/73814328/665cadcd-019d-48fd-a049-ef128a124d8a)
+
+In the HTML page you have the feilds like name,age,email,DOB(Date Of Birth) all are the mandatory feilds.</br></br>
+![image](https://github.com/padalakiran/Web_Application/assets/73814328/6e04b597-eb47-49d6-8cf9-f7b489c93dfe)
+
+The Database consist of the Feilds of id which autoincriment with the data and it is a PrimaryKey, Name is a text Feild datatybe will be varchar, Email is a text Feild datatybe will be varchar, Age it is a integer Feild, Date of Birth it is a Date Feild. </br>
+Let's Lokk at the Schema of The Database</br></br>
+![image](https://github.com/padalakiran/Web_Application/assets/73814328/30ad8b17-c0c4-42b1-b1f0-de2127705727)
