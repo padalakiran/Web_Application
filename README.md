@@ -19,11 +19,13 @@ Prerequisite for the Project
 7. Access Django Admin: Open a web browser and navigate to the address provided by the Django development server (typically http://localhost:8000/). You should see your Django project running. If you have set up Django admin, you can access it at http://localhost:8000/admin/.
 
 After Running Project you will get the output with the link to access the Project which looks like</br></br>
-![image](https://github.com/padalakiran/Web_Application/assets/73814328/665cadcd-019d-48fd-a049-ef128a124d8a)
-
-In the HTML page you have the feilds like name,age,email,DOB(Date Of Birth) all are the mandatory feilds.</br></br>
+![image](https://github.com/padalakiran/Web_Application/assets/73814328/6e9a53d6-5282-427c-a36e-e649140fc76d)
+</br>
+In this page you will get two buttons one for data entry and another for data retrival
+</br>
+if you press data entry button you will get HTML Form that have the feilds like name,age,email,DOB(Date Of Birth) all are the mandatory feilds.</br></br>
 ![image](https://github.com/padalakiran/Web_Application/assets/73814328/6e04b597-eb47-49d6-8cf9-f7b489c93dfe)
 
 The Database consist of the Feilds of id which autoincriment with the data and it is a PrimaryKey, Name is a text Feild datatybe will be varchar, Email is a text Feild datatybe will be varchar, Age it is a integer Feild, Date of Birth it is a Date Feild. </br>
-Let's Lokk at the Schema of The Database</br></br>
+Let's Look at the Schema of The Database</br></br>
 ![image](https://github.com/padalakiran/Web_Application/assets/73814328/30ad8b17-c0c4-42b1-b1f0-de2127705727)
