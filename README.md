@@ -5,7 +5,7 @@ Prerequisite for the Project
 1. Python:- Python latest Version Can be downloaded using the [Link](https://www.python.org/downloads/)
 2. PyCharm:- Pycharm is the platform that Used to run the Python Files That Can Be Downloaded using [Link](https://www.jetbrains.com/pycharm/download/)
 3. Django Module:- To work with Django you need to install Django module which is installed by using command $\color{blue}{pip\ install\ django}$ which can be enter in command prompt 
-4. Data Base:-
+4. Data Base:- Django inbuilt Enabled with Sqllite we can cange the database to MySQL, PostgreSql etc..,
 5. HTML,CSS:- You need to Create the form with HTML(Hyper Text Markup Language), CSS(Cascading Style Sheet) that can take the input from the user.
 6. Virtual Environment:- You need to create virtual environment that can can setup all the required environment like python etc..,
 
@@ -26,6 +26,16 @@ In this page you will get two buttons one for data entry and another for data re
 if you press data entry button you will get HTML Form that have the feilds like name,age,email,DOB(Date Of Birth) all are the mandatory feilds.</br></br>
 ![image](https://github.com/padalakiran/Web_Application/assets/73814328/6e04b597-eb47-49d6-8cf9-f7b489c93dfe)
 
+
+Output of the data which is data retrival page looks like
+![image](https://github.com/padalakiran/Web_Application/assets/73814328/2990bef2-ad18-4e68-bc8d-dd48c5c5fa39)
+
+
 The Database consist of the Feilds of id which autoincriment with the data and it is a PrimaryKey, Name is a text Feild datatybe will be varchar, Email is a text Feild datatybe will be varchar, Age it is a integer Feild, Date of Birth it is a Date Feild. </br>
 Let's Look at the Schema of The Database</br></br>
-![image](https://github.com/padalakiran/Web_Application/assets/73814328/30ad8b17-c0c4-42b1-b1f0-de2127705727)
+![image](https://github.com/padalakiran/Web_Application/assets/73814328/441245b9-518a-438a-9e04-04cc4aaebe49)
+
+
+
+
+Here is the demo link of the project----> [Link](https://drive.google.com/file/d/1-fusr5CzZX4zXuvREAeZ1e-MIxbtxtsf/view?usp=sharing)
