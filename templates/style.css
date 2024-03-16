@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("https://cityofgood.sg/wp-content/uploads/2020/11/Success-3-scaled.jpg");
+    /*background-image: url("https://media.istockphoto.com/id/1324706919/video/crowd-people-appearance-multicultural-crowd-of-people-group-of-different-men-and-women-young.jpg?s=640x640&k=20&c=4J83ZXAU1GD0-Qq0eWCA8pOoIzvHnLUPuL5EwX-H_AM=");*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+ h2 {
+    position: absolute;
+    top: 128px;
+    left: 675px;
+     color: yellow;
+}
+
+
+
+.container {
+    max-width: 609px;
+    padding: 100px;
+
+    /*background-image: url("https://cdn.vectorstock.com/i/preview-1x/85/30/group-modern-people-cute-cartoon-vector-26978530.jpg");*/
+    border-radius: 71px;
+    background-color: lightgreen;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1px;
+    color: yellow;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+    width: 212px;
+    height: 25px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
