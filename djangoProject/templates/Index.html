@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Form</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-image:url('https://cityofgood.sg/wp-content/uploads/2020/11/Success-3-scaled.jpg'); display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+<h2 style="position: absolute; top: 128px; left: 675px; color: yellow;">Person Details</h2>
+<div class="container" style="max-width: 609px; padding: 100px; border-radius: 71px; background-color: lightgreen; box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);">
+    
+    <form action="{% url 'save' %}" method="POST">
+        {%  csrf_token %}
+        
+        <div class="form-group" style="margin-bottom: 20px;">
+            <label for="name" style="font-weight: bold; display: block; margin-bottom: 1px; color: yellow;">Name:</label>
+            <input type="text" id="name" placeholder="Enter Name" name="name" required style="width: 212px; height: 25px; padding: 5px; border: 1px solid #ccc; border-radius: 5px; outline: none;">
+        </div>
+        <div class="form-group" style="margin-bottom: 20px;">
+            <label for="email"  style="font-weight: bold; display: block; margin-bottom: 1px; color: yellow;">Email:</label>
+            <input type="email" placeholder="Enter Email" id="email" name="email" required style="width: 212px; height: 25px; padding: 5px; border: 1px solid #ccc; border-radius: 5px; outline: none;">
+        </div>
+        <div class="form-group" style="margin-bottom: 20px;">
+            <label for="age" style="font-weight: bold; display: block; margin-bottom: 1px; color: yellow;">Age:</label>
+            <input type="number" placeholder="Enter Age" id="age" name="age" required style="width: 212px; height: 25px; padding: 5px; border: 1px solid #ccc; border-radius: 5px; outline: none;">
+        </div>
+        <div class="form-group" style="margin-bottom: 20px;">
+            <label for="dob" style="font-weight: bold; display: block; margin-bottom: 1px; color: yellow;">Date of Birth:</label>
+            <input type="date" id="dob" name="DateOfBirth" required style="width: 212px; height: 25px; padding: 5px; border: 1px solid #ccc; border-radius: 5px; outline: none;">
+        </div>
+        <button type="submit" style="width: 100%; padding: 10px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Submit</button>
+    </form>
+    
+</div>
+
+</body>
+</html>

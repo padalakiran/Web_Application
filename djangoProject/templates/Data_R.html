@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data In Database</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Data In Database</h2>
+
+<table>
+  <tr>
+      <th>Id</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Age</th>
+    <th>Date of Birth</th>
+  </tr>
+  {% for instance in instances %}
+  <tr>
+    <td>{{ instance.id }}</td>
+    <td>{{ instance.name }}</td>
+    <td>{{ instance.email }}</td>
+    <td>{{ instance.age }}</td>
+    <td>{{ instance.DateOfBirth }}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+</body>
+</html>
