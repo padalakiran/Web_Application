@@ -17,8 +17,8 @@ Prerequisite for the Project
 5. Wait for Indexing: PyCharm will index your project files, which may take some time depending on the size of your project.
 6. Open Terminal: Once the project is loaded, you can open the terminal within PyCharm by clicking on **"View" -> "Tool Windows" -> "Terminal"**.
 7. Run Server: In the terminal, navigate to the directory where your manage.py file is located and run the Django development server using the command python manage.py runserver.
-8. Access Django Admin: Open a web browser and navigate to the address provided by the Django development server (typically http://localhost:8000/). You should see your Django project running. If you have set up Django admin, you can access it at http://localhost:8000/admin/.
-
+8. Access Django Admin: Open a web browser and navigate to the address provided by the Django development server (typically http://localhost:8000/). You should see your Django project running. If you have set up Django admin, you can access it at http://localhost:8000/admin/.</br>
+9. Here Is the Step by Step Video link to Setup the project-- [Link](https://drive.google.com/file/d/1tI04zOWBlCwA5d3W9hlBRRFfFui7I20O/view?usp=drive_link)
 
 After Running Project you will get the output with the link to access the Project which looks like</br></br>
 ![image](https://github.com/padalakiran/Web_Application/assets/73814328/6e9a53d6-5282-427c-a36e-e649140fc76d)
