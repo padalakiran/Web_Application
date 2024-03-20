@@ -9,6 +9,13 @@ Prerequisite for the Project
 5. HTML,CSS:- You need to Create the form with HTML(Hyper Text Markup Language), CSS(Cascading Style Sheet) that can take the input from the user.
 6. Virtual Environment:- You need to create virtual environment that can can setup all the required environment like python etc..,
 
+| Platform    | Download link/command |
+| ------------- | ------------- |
+| Python  |   [Link](https://www.python.org/downloads/)|
+| Pycharm  | [Link](https://www.jetbrains.com/pycharm/download/)  |
+|MySQl | [Link](https://www.mysql.com/downloads/)|
+|Django     | pip install django |
+|MySQL Connector for Python| pip install mysql-connector-python |
 ## Steps to Run the project
 1. After downloading the repository and Extract all Files in the zip folder to your local computer.
 2. Open PyCharm: Launch PyCharm from your applications or start menu.
