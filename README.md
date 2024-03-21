@@ -42,7 +42,14 @@ Output of the data which is data retrival page looks like
 
 The Database consist of the Feilds of id which autoincriment with the data and it is a PrimaryKey, Name is a text Feild datatybe will be varchar, Email is a text Feild datatybe will be varchar, Age it is a integer Feild, Date of Birth it is a Date Feild. </br>
 Let's Look at the Schema of The Database</br></br>
-![image](https://github.com/padalakiran/Web_Application/assets/73814328/441245b9-518a-438a-9e04-04cc4aaebe49)
+
+| Field       | Type         | Null | Key | Default | Extra          |
+|:-----------:|:------------:|:-----:|:-----:|:--------:|:---------------:|
+| ID          | int          | NO   | PRI | NULL    | auto_increment |
+| Name        | varchar(255) | NO   |     | NULL    |                |
+| Email       | varchar(255) | NO   |     | NULL    |                |
+| Age         | int          | NO   |     | NULL    |                |
+| DateOfBirth | date         | NO   |     | NULL    |                |
 
 
 
